@@ -14,6 +14,11 @@ public class Activity {
         this.setStartingHour(hour);
     }
 
+    public Activity(String title, String day) {
+        this.setTitle(title);
+        this.setWeekDay(day);
+    }
+
     public void setTitle(String title) {
         this.title = title;
     }

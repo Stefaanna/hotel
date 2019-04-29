@@ -4,19 +4,17 @@ import main.java.hostel.configuration.RepositoryConfig;
 import main.java.hostel.domain.entity.Volunteer;
 import main.java.hostel.domain.repository.VolunteerRepository;
 
+import java.util.Set;
+
 public class VolunteerService {
 
     private VolunteerRepository volunteerRepository = RepositoryConfig.getInstance().getVolunteerRepository();
 
     public VolunteerService() {}
 
-    private void printVolunteers(Volunteer[] result) {
-        for (int i = 0; i < result.length; i++) {
-            if (result[i] == null) {
-                System.out.println("--------------------------");
-                break;
-            }
-            System.out.println(/*result[i].getCnp() + " " + */result[i].getName() + " from " + result[i].getOriginCountry());
+    private void printVolunteers(Set<Volunteer> result) {
+        for (Volunteer v : result) {
+            System.out.println(v.getName() + " from " + v.getOriginCountry());
         }
     }
 

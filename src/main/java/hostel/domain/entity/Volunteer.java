@@ -16,6 +16,11 @@ public class Volunteer extends Person {
         super(cnp, name);
     }
 
+    public Volunteer(String cnp, String name, String originCountry) {
+        super(cnp, name);
+        this.setOriginCountry(originCountry);
+    }
+
     public Volunteer(String cnp, String name, Date hireDate, Date leavingDate, String originCountry) {
         super(cnp, name);
         this.setHireDate(hireDate);

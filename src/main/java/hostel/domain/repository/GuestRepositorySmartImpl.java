@@ -1,33 +1,33 @@
 package main.java.hostel.domain.repository;
 
 import main.java.hostel.domain.entity.Guest;
-import main.java.hostel.domain.repository.GuestRepository;
 import main.java.hostel.tool.GuestBuilder;
-import main.java.hostel.tool.TestData;
+import main.java.hostel.tool.data.TestData;
+
+import java.util.ArrayList;
 
 public class GuestRepositorySmartImpl implements GuestRepository {
 
-    private Guest[] guests;
+    private ArrayList<Guest> guests = new ArrayList<Guest>();
 
     public GuestRepositorySmartImpl() {
         int length = TestData.getInstance().getGuestData().length;
-        this.guests = new Guest[length];
         for (int i = 0; i < length; i++) {
             String[] splitedData = TestData.getInstance().getGuestData()[i].split(",");
-            this.guests[i] =
+            this.guests.add(
                     new GuestBuilder()
                             .withName(splitedData[1] + " " + splitedData[2])
                             .withCnp(splitedData[0])
                             .withEmail(splitedData[3])
                             .withGender(splitedData[4])
                             .withOriginCountry(splitedData[5])
-                            .build();
+                            .build());
 
         }
     }
 
     @Override
-    public Guest[] getGuests() {
+    public ArrayList<Guest> getGuests() {
         return guests;
     }
 

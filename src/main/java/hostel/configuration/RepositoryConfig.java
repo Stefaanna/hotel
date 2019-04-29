@@ -2,17 +2,19 @@ package main.java.hostel.configuration;
 
 import main.java.hostel.domain.repository.*;
 
+import java.io.FileNotFoundException;
+
 public class RepositoryConfig {
 
-//    private final EmployeeRepository employeeRepository = new EmployeeRepositoryImpl();
-    private final EmployeeRepository employeeRepository = new EmployeeRepositorySmartImpl();
-    private final VolunteerRepository volunteerRepository = new VolunteerRepositorySmartImpl();
-    private final GuestRepository guestRepository  = new GuestRepositorySmartImpl();
-    private final ActivityRepository activityRepository = new ActivityRepositoryImpl();
+    private EmployeeRepository employeeRepository;
+    private VolunteerRepository volunteerRepository;
+    private GuestRepository guestRepository;
+    private ActivityRepository activityRepository;
 
     public EmployeeRepository getEmployeeRepository() { return  employeeRepository; }
     public VolunteerRepository getVolunteerRepository() { return volunteerRepository; }
     public GuestRepository getGuestRepository() { return guestRepository; }
+    public ActivityRepository getActivityRepository() { return activityRepository; }
 
 
     private static RepositoryConfig ourInstance = new RepositoryConfig();
@@ -20,7 +22,39 @@ public class RepositoryConfig {
         return ourInstance;
     }
 
-    private RepositoryConfig() {}
+    private RepositoryConfig() {
+        try {
+            employeeRepository = new EmployeeRepositoryFileImpl("D:\\Facultate\\2.2\\PAO\\hostel\\src\\main\\java\\hostel\\tool\\data\\employees.csv");
+        } catch (FileNotFoundException e) {
+            System.out.println("Could not create EmployeeRepositoryFileImpl: " + e.getMessage());
+            System.out.println("The system will use the mock data from EmployeeRepositorySmartImpl");
+            employeeRepository = new EmployeeRepositorySmartImpl();
+        }
 
-    public ActivityRepository getActivitiesRepository() { return activityRepository; }
+        try {
+            volunteerRepository = new VolunteerRepositoryFileImpl("D:\\Facultate\\2.2\\PAO\\hostel\\src\\main\\java\\hostel\\tool\\data\\volunteers.csv");
+        } catch (FileNotFoundException e) {
+            System.out.println("Could not create VolunteerRepositoryFileImpl: " + e.getMessage());
+            System.out.println("The system will use the mock data from VolunteerRepositorySmartImpl");
+            volunteerRepository = new VolunteerRepositorySmartImpl();
+        }
+
+        try {
+            guestRepository = new GuestRepositoryFileImpl("D:\\Facultate\\2.2\\PAO\\hostel\\src\\main\\java\\hostel\\tool\\data\\guests.csv");
+        } catch (FileNotFoundException e) {
+            System.out.println("Could not create GuestRepositoryFileImpl: " + e.getMessage());
+            System.out.println("The system will use the mock data from GuestRepositorySmartImpl");
+            guestRepository = new GuestRepositorySmartImpl();
+        }
+
+        try {
+            activityRepository = new ActivityRepositoryFileImpl("D:\\Facultate\\2.2\\PAO\\hostel\\src\\main\\java\\hostel\\tool\\data\\activities.csv");
+        } catch (FileNotFoundException e) {
+            System.out.println("Could not create ActivityRepositoryFileImpl: " + e.getMessage());
+            System.out.println("The system will use the mock data from ActivityRepositoryImpl");
+            activityRepository = new ActivityRepositoryImpl();
+        }
+
+    }
+
 }

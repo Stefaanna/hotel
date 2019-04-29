@@ -2,29 +2,35 @@ package main.java.hostel.domain.repository;
 
 import main.java.hostel.domain.entity.Employee;
 import main.java.hostel.tool.EmployeeBuilder;
-import main.java.hostel.tool.TestData;
+import main.java.hostel.tool.data.TestData;
+
+import java.util.HashSet;
+import java.util.Set;
 
 public class EmployeeRepositorySmartImpl implements EmployeeRepository {
 
-    private Employee[] employees;
+    //    private Employee[] employees;
+    private Set<Employee> employees = new HashSet<Employee>();
 
     public EmployeeRepositorySmartImpl() {
         int length = TestData.getInstance().getEmployeeData().length;
-        this.employees = new Employee[length];
+//        this.employees = new Employee[length];
         for (int i = 0; i < length; i++) {
             String[] splitedData = TestData.getInstance().getEmployeeData()[i].split(",");
-            this.employees[i] =
+            this.employees.add(
                     new EmployeeBuilder()
                             .withName(splitedData[1] + " " + splitedData[2])
                             .withCnp(splitedData[0])
-                            .build();
+                            .build());
 
         }
     }
 
     @Override
-    public Employee[] getEmployees() {
+//    public Employee[] getEmployees() {
+//        return employees;
+//    }
+    public Set<Employee> getEmployees() {
         return employees;
     }
-
 }

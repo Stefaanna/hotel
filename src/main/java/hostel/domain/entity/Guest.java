@@ -21,6 +21,11 @@ public class Guest extends Person {
         this.setLeavingDate(leavingDate);
     }
 
+    public Guest(String name, String cnp, String originCountry) {
+        super(name, cnp);
+        this.setOriginCountry(originCountry);
+    }
+
     public void setComingDate(Date date) {
         this.comingDate = comingDate;
     }

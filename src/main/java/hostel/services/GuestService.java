@@ -1,9 +1,10 @@
 package main.java.hostel.services;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
 import main.java.hostel.configuration.RepositoryConfig;
 import main.java.hostel.domain.entity.Guest;
 import main.java.hostel.domain.repository.GuestRepository;
+
+import java.util.ArrayList;
 
 public class GuestService {
 
@@ -11,29 +12,25 @@ public class GuestService {
 
     public GuestService() {}
 
-    private void printGuests(Guest[] result) {
-        for (int i = 0; i < result.length; i++) {
-            if (result[i] == null) {
-                System.out.println("--------------------------");
-                break;
-            }
-            System.out.println(/*result[i].getCnp() + " " + */result[i].getName() + " from " + result[i].getOriginCountry()/* + " with the CNP " + result[i].getCnp()*/);
+    private void printGuests(ArrayList<Guest> result) {
+        for (Guest g : result) {
+            System.out.println(g.getName() + " from " + g.getOriginCountry());
         }
     }
 
     public void printAllGuests() { printGuests(guestRepository.getGuests()); }
 
     public void searchGuestByCnp(String cnp) {
-        Guest[] guests = guestRepository.getGuests();
+        ArrayList<Guest> guests = guestRepository.getGuests();
         Boolean found = false;
-        for (int i=0; i< guests.length; i++) {
-            if (guests[i] == null) {
+        for (Guest g : guests) {
+            if (g == null) {
                 System.out.println("There is no guest with the CNP " + cnp);
                 break;
             }
             else {
-                if (guests[i].getCnp().equals(cnp)) {
-                    System.out.println("The guest with the CNP " + cnp + " is " + guests[i].getName());
+                if (g.getCnp().equals(cnp)) {
+                    System.out.println("The guest with the CNP " + cnp + " is " + g.getName());
                     found = true;
                     break;
                 }
@@ -43,17 +40,17 @@ public class GuestService {
     }
 
     public void searchGuestByOriginCountry(String country) {
-        Guest[] guests = guestRepository.getGuests();
+        ArrayList<Guest> guests = guestRepository.getGuests();
         Boolean found = false;
         System.out.println("\nGuests from " + country + ":");
-        for (int i=0; i< guests.length; i++) {
-            if (guests[i] == null) {
+        for (Guest g : guests) {
+            if (g == null) {
                 System.out.println("There is no guest from " + country);
                 break;
             }
             else {
-                if (guests[i].getOriginCountry().equals(country)) {
-                    System.out.println(guests[i].getName());
+                if (g.getOriginCountry().equals(country)) {
+                    System.out.println(g.getName());
                     found = true;
                 }
             }

@@ -4,6 +4,8 @@ import main.java.hostel.configuration.RepositoryConfig;
 import main.java.hostel.domain.entity.Employee;
 import main.java.hostel.domain.repository.EmployeeRepository;
 
+import java.util.Set;
+
 public class EmployeeService {
 
     private EmployeeRepository employeeRepository = RepositoryConfig.getInstance().getEmployeeRepository();
@@ -11,15 +13,13 @@ public class EmployeeService {
     public EmployeeService() {}
 
     public String[] searchEmployeesByASpecificPattern(String partialUserName) {
-        Employee[] employeesInHostelService = employeeRepository.getEmployees();
-        String[] result = new String[employeesInHostelService.length];
+        Set<Employee> employeesInHostelService = employeeRepository.getEmployees();
+        String[] result = new String[employeesInHostelService.size()];
         int counter = 0;
         String pattern = createPattern(partialUserName);
-//        System.out.println(pattern);
-
-        for (int i = 0; i < employeesInHostelService.length; i++) {
-            if (employeesInHostelService[i] != null && employeesInHostelService[i].getName().matches(pattern)) {
-                result[counter++] = employeesInHostelService[i].getName();
+        for (Employee e : employeesInHostelService) {
+            if (e != null && e.getName().matches(pattern)) {
+                result[counter++] = e.getName();
             }
         }
         return result;
@@ -40,13 +40,9 @@ public class EmployeeService {
         return resultBuilder.toString();
     }
 
-    private void printEmployees(Employee[] result) {
-        for (int i = 0; i < result.length; i++) {
-            if (result[i] == null) {
-                System.out.println("--------------------------");
-                break;
-            }
-            System.out.println(/*result[i].getCnp() + " " + */result[i].getName());
+    private void printEmployees(Set<Employee> result) {
+        for (Employee e : result) {
+            System.out.println(/*e.getCnp() + " " + */e.getName());
         }
     }
 

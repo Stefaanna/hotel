@@ -1,13 +1,18 @@
 package main.java;
 
+import main.java.hostel.configuration.RepositoryConfig;
+import main.java.hostel.domain.entity.Activity;
 import main.java.hostel.domain.entity.Guest;
 import main.java.hostel.domain.repository.*;
 import main.java.hostel.services.EmployeeService;
 import main.java.hostel.services.GuestService;
 import main.java.hostel.services.VolunteerService;
+import main.java.hostel.tool.ActivityGenerator;
+import main.java.hostel.tool.EmployeeGenerator;
+import main.java.hostel.tool.GuestGenerator;
+import main.java.hostel.tool.VolunteerGenerator;
 
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.Date;
 
 
@@ -16,6 +21,17 @@ public class Start {
     public static void main(String[] args) {
 
         System.out.println("Welcome to the Backpacker's Hostel!\n");
+
+        // printing to files
+        ActivityGenerator activityWriter = new ActivityGenerator();
+        activityWriter.writeActivityData();
+        EmployeeGenerator employeeWriter = new EmployeeGenerator();
+        employeeWriter.writeEmployeeData();
+        GuestGenerator guestWriter = new GuestGenerator();
+        guestWriter.writeGuestData();
+        VolunteerGenerator volunteerWriter = new VolunteerGenerator();
+        volunteerWriter.writeVolunteerData();
+
 
         //printAllEmployees
         EmployeeService employeeService = new EmployeeService();
@@ -49,6 +65,7 @@ public class Start {
         GuestService guestService = new GuestService();
         System.out.println("\nOur current guests are: ");
         guestService.printAllGuests();
+        System.out.println();
 
         //searchGuestByCnp
         guestService.searchGuestByCnp("929202627");
@@ -59,18 +76,19 @@ public class Start {
         guestService.searchGuestByOriginCountry("Romania");
 
         //addActivity
-        ActivityRepository activityRepository = new ActivityRepositoryImpl();
+        ActivityRepository activityRepository = RepositoryConfig.getInstance().getActivityRepository();
         activityRepository.addActivity("painting","sunday",18);
         activityRepository.addActivity("yoga","sunday",11);
         activityRepository.addActivity("running","wednesday",17);
 
         //printAllActivities
+//        ActivityRepository activityRepository = RepositoryConfig.getInstance().getActivityRepository();
         System.out.println("\nAt our hostel we usually do these activities: ");
         activityRepository.printAllActivities();
 
         //listUnavailableBeds
         RoomsRepository roomsRepository = new RoomsRepository();
-//        roomsRepository.listUnavailableBeds();
+        //roomsRepository.listUnavailableBeds();
 
         //listAvailableBeds
         roomsRepository.listAvailableBeds();

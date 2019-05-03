@@ -1,4 +1,4 @@
-package main.java.hostel.tool.data;
+package main.java.hostel.tool;
 
 public class TestData {
 

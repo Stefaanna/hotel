@@ -13,7 +13,7 @@ public class VolunteerGenerator {
     public static void writeVolunteerData() {
 
         try {
-            FileWriter fileWriter = new FileWriter("D://Facultate//2.2//PAO//hostel//src//main//java//hostel//tool//data//volunteers.csv");
+            FileWriter fileWriter = new FileWriter("D://Facultate//2.2//PAO//hostel//src//main//java//hostel//data//volunteers.csv");
             PrintWriter printWriter = new PrintWriter(fileWriter);
 
             Set<Volunteer> volunteers = new HashSet<Volunteer>();

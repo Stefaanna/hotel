@@ -12,7 +12,7 @@ public class GuestGenerator {
     public static void writeGuestData() {
 
         try {
-            FileWriter fileWriter = new FileWriter("D://Facultate//2.2//PAO//hostel//src//main//java//hostel//tool//data//guests.csv");
+            FileWriter fileWriter = new FileWriter("D://Facultate//2.2//PAO//hostel//src//main//java//hostel//data//guests.csv");
             PrintWriter printWriter = new PrintWriter(fileWriter);
 
             ArrayList<Guest> guests = new ArrayList<Guest>();

@@ -1,7 +1,7 @@
 package main.java.hostel.domain.repository;
 
 import main.java.hostel.domain.entity.Volunteer;
-import main.java.hostel.tool.data.TestData;
+import main.java.hostel.tool.TestData;
 import main.java.hostel.tool.VolunteerBuilder;
 
 import java.util.HashSet;

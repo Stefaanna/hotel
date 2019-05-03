@@ -6,7 +6,7 @@ import main.java.hostel.domain.repository.*;
 import main.java.hostel.services.EmployeeService;
 import main.java.hostel.services.GuestService;
 import main.java.hostel.services.VolunteerService;
-import main.java.hostel.tool.data.DataWriter;
+import main.java.hostel.tool.DataWriter;
 
 import java.sql.Timestamp;
 import java.util.Date;
@@ -119,18 +119,19 @@ public class Start {
         DataWriter writer = new DataWriter();
         writer.writeAllData();
 
-        System.out.println("Choose an operation:\n" +
+        System.out.println("-------------------------\n" +
+                "Choose an operation:\n" +
                 "0. Exit\n" +
                 "1. printAllEmployees\n" +
                 "2. printAllVolunteers\n" +
-                "3. printAllGuests\n" +
-                "4. searchGuestByCnp\n" +
-                "5. searchGuestByOriginCountry\n" +
-                "6. printAllActivities\n" +
+                "3. searchEmployeesByASpecificPattern\n" +
+                "4. printAllGuests\n" +
+                "5. searchGuestByCnp\n" +
+                "6. searchGuestByOriginCountry\n" +
                 "7. addActivity\n" +
-                "8. addReservation\n" +
-                "9. searchEmployeeByASpecificPattern\n" +
-                "10. listAvailableBeds");
+                "8. printAllActivities\n" +
+                "9. listAvailableBeds\n" +
+                "10. addReservation");
 
         Scanner scanner = new Scanner(System.in);
         int operation = scanner.nextInt();
@@ -226,18 +227,19 @@ public class Start {
                     break;
 
             }
-            System.out.println("Choose an operation:\n" +
+            System.out.println("-------------------------\n" +
+                    "Choose an operation:\n" +
                     "0. Exit\n" +
                     "1. printAllEmployees\n" +
                     "2. printAllVolunteers\n" +
-                    "3. printAllGuests\n" +
-                    "4. searchGuestByCnp\n" +
-                    "5. searchGuestByOriginCountry\n" +
-                    "6. printAllActivities\n" +
+                    "3. searchEmployeesByASpecificPattern\n" +
+                    "4. printAllGuests\n" +
+                    "5. searchGuestByCnp\n" +
+                    "6. searchGuestByOriginCountry\n" +
                     "7. addActivity\n" +
-                    "8. addReservation\n" +
-                    "9. searchEmployeeByASpecificPattern\n" +
-                    "10. listAvailableBeds");
+                    "8. printAllActivities\n" +
+                    "9. listAvailableBeds\n" +
+                    "10. addReservation");
             operation = scanner.nextInt();
         }
 

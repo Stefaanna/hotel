@@ -2,7 +2,7 @@ package main.java.hostel.domain.repository;
 
 import main.java.hostel.domain.entity.Employee;
 import main.java.hostel.tool.EmployeeBuilder;
-import main.java.hostel.tool.data.TestData;
+import main.java.hostel.tool.TestData;
 
 import java.util.HashSet;
 import java.util.Set;

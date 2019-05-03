@@ -2,7 +2,7 @@ package main.java.hostel.domain.repository;
 
 import main.java.hostel.domain.entity.Guest;
 import main.java.hostel.tool.GuestBuilder;
-import main.java.hostel.tool.data.TestData;
+import main.java.hostel.tool.TestData;
 
 import java.util.ArrayList;
 

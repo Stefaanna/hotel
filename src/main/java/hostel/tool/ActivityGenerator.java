@@ -14,7 +14,7 @@ public class ActivityGenerator {
     public static void writeActivityData() {
 
         try {
-            FileWriter fileWriter = new FileWriter("D://Facultate//2.2//PAO//hostel//src//main//java//hostel//tool//data//activities.csv");
+            FileWriter fileWriter = new FileWriter("D://Facultate//2.2//PAO//hostel//src//main//java//hostel//data//activities.csv");
             PrintWriter printWriter = new PrintWriter(fileWriter);
 
             /*Activity activity = new ActivityBuilder().withTitle("yoga").withWeekDay("saturday").build();

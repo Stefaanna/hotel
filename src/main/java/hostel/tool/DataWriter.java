@@ -1,4 +1,4 @@
-package main.java.hostel.tool.data;
+package main.java.hostel.tool;
 
 import main.java.hostel.tool.ActivityGenerator;
 import main.java.hostel.tool.EmployeeGenerator;

@@ -3,11 +3,11 @@
 actions:
 1. printAllEmployees
 2. printAllVolunteers
-3. printAllGuests
-4. searchGuestByCnp
-5. searchGuestByOriginCountry
-6. printAllActivities
+3. searchEmployeesByASpecificPattern
+4. printAllGuests
+5. searchGuestByCnp
+6. searchGuestByOriginCountry
 7. addActivity
-8. addReservation
-9. searchEmployeeByASpecificPattern
-10. listAvailableBeds
+8. printAllActivities
+9. listAvailableBeds
+10. addReservation

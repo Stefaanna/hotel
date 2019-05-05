@@ -6,7 +6,6 @@ import main.java.hostel.domain.repository.ActivityRepository;
 import main.java.hostel.domain.repository.ReservationRepository;
 import main.java.hostel.domain.repository.ReservationRepositoryImpl;
 import main.java.hostel.domain.repository.RoomsRepository;
-import main.java.hostel.tool.Audit;
 import main.java.hostel.tool.DataWriter;
 
 import java.util.Date;
@@ -22,8 +21,8 @@ public class HostelService {
         DataWriter writer = new DataWriter();
         writer.writeAllData();
 
-        String actionName;
-        Audit auditWriter = new Audit();
+        String actionName = null;
+        AuditService auditService = AuditService.getInstance();
 
         System.out.println("-------------------------\n" +
                 "Choose an operation:\n" +
@@ -55,7 +54,6 @@ public class HostelService {
                 case 1:
                     //printAllEmployees
                     actionName = "printAllEmployees";
-                    auditWriter.printActionsDetails(actionName);
 
                     employeeService = new EmployeeService();
                     System.out.println("\nOur current employees are: ");
@@ -64,7 +62,6 @@ public class HostelService {
                 case 2:
                     //printAllVolunteers
                     actionName = "printAllVolunteers";
-                    auditWriter.printActionsDetails(actionName);
 
                     volunteerService = new VolunteerService();
                     System.out.println("\nOur current volunteers are: ");
@@ -73,7 +70,6 @@ public class HostelService {
                 case 3:
                     //searchEmployeesByASpecificPattern
                     actionName = "searchEmployeesByASpecificPattern";
-                    auditWriter.printActionsDetails(actionName);
 
                     employeeService = new EmployeeService();
                     String[] partialName = {"StF", "HaCl", "StP"};
@@ -96,7 +92,6 @@ public class HostelService {
                 case 4:
                     //printAllGuests
                     actionName = "printAllGuests";
-                    auditWriter.printActionsDetails(actionName);
 
                     guestService = new GuestService();
                     System.out.println("\nOur current guests are: ");
@@ -105,7 +100,6 @@ public class HostelService {
                 case 5:
                     //searchGuestByCnp
                     actionName = "searchGuestByCnp";
-                    auditWriter.printActionsDetails(actionName);
 
                     guestService = new GuestService();
                     guestService.searchGuestByCnp("929202627");
@@ -114,7 +108,6 @@ public class HostelService {
                 case 6:
                     //searchGuestByOriginCountry
                     actionName = "searchGuestByOriginCountry";
-                    auditWriter.printActionsDetails(actionName);
 
                     guestService = new GuestService();
                     guestService.searchGuestByOriginCountry("Italy");
@@ -123,7 +116,6 @@ public class HostelService {
                 case 7:
                     //addActivity
                     actionName = "addActivity";
-                    auditWriter.printActionsDetails(actionName);
 
                     activityRepository = RepositoryConfig.getInstance().getActivityRepository();
                     activityRepository.addActivity("painting", "sunday", 18);
@@ -133,7 +125,6 @@ public class HostelService {
                 case 8:
                     //printAllActivities
                     actionName = "printAllActivities";
-                    auditWriter.printActionsDetails(actionName);
 
                     activityRepository = RepositoryConfig.getInstance().getActivityRepository();
                     System.out.println("\nAt our hostel we usually do these activities: ");
@@ -142,7 +133,6 @@ public class HostelService {
                 case 9:
                     //listAvailableBeds
                     actionName = "listAvailableBeds";
-                    auditWriter.printActionsDetails(actionName);
 
                     roomsRepository = new RoomsRepository();
                     roomsRepository.listAvailableBeds();
@@ -150,7 +140,6 @@ public class HostelService {
                 case 10:
                     //addReservation
                     actionName = "addReservation";
-                    auditWriter.printActionsDetails(actionName);
 
                     Date comingDate = new Date(2019, 03, 30);
                     Date leavingDate = new Date(2019, 04, 04);
@@ -161,8 +150,10 @@ public class HostelService {
                     break;
                 default:
                     break;
-
+                    
             }
+            auditService.printActionsDetails(actionName);
+
             System.out.println("-------------------------\n" +
                     "Choose an operation:\n" +
                     "0. Exit\n" +

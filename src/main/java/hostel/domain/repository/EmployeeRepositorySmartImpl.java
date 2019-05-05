@@ -27,9 +27,6 @@ public class EmployeeRepositorySmartImpl implements EmployeeRepository {
     }
 
     @Override
-//    public Employee[] getEmployees() {
-//        return employees;
-//    }
     public Set<Employee> getEmployees() {
         return employees;
     }

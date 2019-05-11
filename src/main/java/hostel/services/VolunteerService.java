@@ -9,8 +9,10 @@ import java.util.Set;
 public class VolunteerService {
 
     private VolunteerRepository volunteerRepository = RepositoryConfig.getInstance().getVolunteerRepository();
+    private AuditService auditService = AuditService.getInstance();
 
-    public VolunteerService() {}
+    public VolunteerService() {
+    }
 
     private void printVolunteers(Set<Volunteer> result) {
         for (Volunteer v : result) {
@@ -18,7 +20,10 @@ public class VolunteerService {
         }
     }
 
-    public void printAllVolunteers() { printVolunteers(volunteerRepository.getVolunteers()); }
+    public void printAllVolunteers() {
+        auditService.printActionsDetails("printAllVolunteers");
+        printVolunteers(volunteerRepository.getVolunteers());
+    }
 
 
 }

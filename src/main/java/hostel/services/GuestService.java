@@ -9,8 +9,10 @@ import java.util.ArrayList;
 public class GuestService {
 
     private GuestRepository guestRepository = RepositoryConfig.getInstance().getGuestRepository();
+    private AuditService auditService = AuditService.getInstance();
 
-    public GuestService() {}
+    public GuestService() {
+    }
 
     private void printGuests(ArrayList<Guest> result) {
         for (Guest g : result) {
@@ -18,17 +20,20 @@ public class GuestService {
         }
     }
 
-    public void printAllGuests() { printGuests(guestRepository.getGuests()); }
+    public void printAllGuests() {
+        auditService.printActionsDetails("printAllGuests");
+        printGuests(guestRepository.getGuests());
+    }
 
     public void searchGuestByCnp(String cnp) {
+        auditService.printActionsDetails("searchGuestByCnp");
         ArrayList<Guest> guests = guestRepository.getGuests();
         Boolean found = false;
         for (Guest g : guests) {
             if (g == null) {
                 System.out.println("There is no guest with the CNP " + cnp);
                 break;
-            }
-            else {
+            } else {
                 if (g.getCnp().equals(cnp)) {
                     System.out.println("The guest with the CNP " + cnp + " is " + g.getName());
                     found = true;
@@ -40,6 +45,7 @@ public class GuestService {
     }
 
     public void searchGuestByOriginCountry(String country) {
+        auditService.printActionsDetails("searchGuestByOriginCountry");
         ArrayList<Guest> guests = guestRepository.getGuests();
         Boolean found = false;
         System.out.println("\nGuests from " + country + ":");
@@ -47,8 +53,7 @@ public class GuestService {
             if (g == null) {
                 System.out.println("There is no guest from " + country);
                 break;
-            }
-            else {
+            } else {
                 if (g.getOriginCountry().equals(country)) {
                     System.out.println(g.getName());
                     found = true;

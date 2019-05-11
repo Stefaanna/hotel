@@ -21,9 +21,6 @@ public class HostelService {
         DataWriter writer = new DataWriter();
         writer.writeAllData();
 
-        String actionName = null;
-        AuditService auditService = AuditService.getInstance();
-
         System.out.println("-------------------------\n" +
                 "Choose an operation:\n" +
                 "0. Exit\n" +
@@ -53,24 +50,18 @@ public class HostelService {
             switch (operation) {
                 case 1:
                     //printAllEmployees
-                    actionName = "printAllEmployees";
-
                     employeeService = new EmployeeService();
                     System.out.println("\nOur current employees are: ");
                     employeeService.printAllEmployees();
                     break;
                 case 2:
                     //printAllVolunteers
-                    actionName = "printAllVolunteers";
-
                     volunteerService = new VolunteerService();
                     System.out.println("\nOur current volunteers are: ");
                     volunteerService.printAllVolunteers();
                     break;
                 case 3:
                     //searchEmployeesByASpecificPattern
-                    actionName = "searchEmployeesByASpecificPattern";
-
                     employeeService = new EmployeeService();
                     String[] partialName = {"StF", "HaCl", "StP"};
                     System.out.print("\nTrying to search in our hostel all employees that match the partial name: ");
@@ -91,32 +82,24 @@ public class HostelService {
                     break;
                 case 4:
                     //printAllGuests
-                    actionName = "printAllGuests";
-
                     guestService = new GuestService();
                     System.out.println("\nOur current guests are: ");
                     guestService.printAllGuests();
                     System.out.println();
                 case 5:
                     //searchGuestByCnp
-                    actionName = "searchGuestByCnp";
-
                     guestService = new GuestService();
                     guestService.searchGuestByCnp("929202627");
                     guestService.searchGuestByCnp("123456780");
                     break;
                 case 6:
                     //searchGuestByOriginCountry
-                    actionName = "searchGuestByOriginCountry";
-
                     guestService = new GuestService();
                     guestService.searchGuestByOriginCountry("Italy");
                     guestService.searchGuestByOriginCountry("Romania");
                     break;
                 case 7:
                     //addActivity
-                    actionName = "addActivity";
-
                     activityRepository = RepositoryConfig.getInstance().getActivityRepository();
                     activityRepository.addActivity("painting", "sunday", 18);
 //                    activityRepository.addActivity("yoga", "sunday", 11);
@@ -124,23 +107,17 @@ public class HostelService {
                     break;
                 case 8:
                     //printAllActivities
-                    actionName = "printAllActivities";
-
                     activityRepository = RepositoryConfig.getInstance().getActivityRepository();
                     System.out.println("\nAt our hostel we usually do these activities: ");
                     activityRepository.printAllActivities();
                     break;
                 case 9:
                     //listAvailableBeds
-                    actionName = "listAvailableBeds";
-
                     roomsRepository = new RoomsRepository();
                     roomsRepository.listAvailableBeds();
                     break;
                 case 10:
                     //addReservation
-                    actionName = "addReservation";
-
                     Date comingDate = new Date(2019, 03, 30);
                     Date leavingDate = new Date(2019, 04, 04);
 
@@ -152,8 +129,6 @@ public class HostelService {
                     break;
                     
             }
-            auditService.printActionsDetails(actionName);
-
             System.out.println("-------------------------\n" +
                     "Choose an operation:\n" +
                     "0. Exit\n" +

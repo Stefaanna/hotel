@@ -2,6 +2,7 @@ package main.java.hostel.domain.repository;
 
 import main.java.hostel.domain.entity.Bed;
 import main.java.hostel.domain.entity.Room;
+import main.java.hostel.services.AuditService;
 
 public class RoomsRepository {
 
@@ -25,6 +26,7 @@ public class RoomsRepository {
     public Room[] getRooms() {
         return rooms;
     }
+    private AuditService auditService = AuditService.getInstance();
 
 
 
@@ -43,6 +45,7 @@ public class RoomsRepository {
     }
 
     public void listAvailableBeds() {
+        auditService.printActionsDetails("listAvailableBeds");
         System.out.println("The available beds that we have are: ");
         for (int i = 0; i < rooms.length; i++) {
             if (rooms[i] == null) {

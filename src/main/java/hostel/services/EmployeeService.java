@@ -9,10 +9,13 @@ import java.util.Set;
 public class EmployeeService {
 
     private EmployeeRepository employeeRepository = RepositoryConfig.getInstance().getEmployeeRepository();
+    private AuditService auditService = AuditService.getInstance();
 
-    public EmployeeService() {}
+    public EmployeeService() {
+    }
 
     public String[] searchEmployeesByASpecificPattern(String partialUserName) {
+        auditService.printActionsDetails("searchEmployeesByASpecificPattern");
         Set<Employee> employeesInHostelService = employeeRepository.getEmployees();
         String[] result = new String[employeesInHostelService.size()];
         int counter = 0;
@@ -46,6 +49,9 @@ public class EmployeeService {
         }
     }
 
-    public void printAllEmployees() { printEmployees(employeeRepository.getEmployees()); }
+    public void printAllEmployees() {
+        auditService.printActionsDetails("printAllEmployees");
+        printEmployees(employeeRepository.getEmployees());
+    }
 
 }

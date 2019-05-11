@@ -1,6 +1,7 @@
 package main.java.hostel.domain.repository;
 
 import main.java.hostel.domain.entity.Activity;
+import main.java.hostel.services.AuditService;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -12,6 +13,8 @@ import java.util.TreeSet;
 
 public class ActivityRepositoryFileImpl implements ActivityRepository {
 
+    private AuditService auditService = AuditService.getInstance();
+
     Set<Activity> activities = new TreeSet<Activity>(new Comparator<Activity>() {
         @Override
         public int compare(Activity a1, Activity a2) {
@@ -19,7 +22,6 @@ public class ActivityRepositoryFileImpl implements ActivityRepository {
                 return a1.getWeekDay().compareToIgnoreCase(a2.getWeekDay());
             }
             return a1.getTitle().compareToIgnoreCase(a2.getTitle());
-
         }
     });
 
@@ -37,11 +39,13 @@ public class ActivityRepositoryFileImpl implements ActivityRepository {
 
     @Override
     public void addActivity(String title, String day, int hour) {
+        auditService.printActionsDetails("addActivity");
         activities.add(new Activity(title, day, hour));
     }
 
     @Override
     public void printAllActivities() {
+        auditService.printActionsDetails("printAllActivities");
         for (Activity a : activities) {
             System.out.println(a.getTitle() + ", which takes place on " + a.getWeekDay());
         }

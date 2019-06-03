@@ -24,7 +24,7 @@ public class RepositoryConfig {
 
     private RepositoryConfig() {
         try {
-            employeeRepository = new EmployeeRepositoryFileImpl("D:\\Facultate\\2.2\\PAO\\hostel\\src\\main\\java\\hostel\\data\\employees.csv");
+            employeeRepository = new EmployeeRepositoryFileImpl("D:\\Facultate\\2.2\\PAO\\lab\\hotel\\src\\main\\java\\hostel\\data\\employees.csv");
         } catch (FileNotFoundException e) {
             System.out.println("Could not create EmployeeRepositoryFileImpl: " + e.getMessage());
             System.out.println("The system will use the mock data from EmployeeRepositorySmartImpl");
@@ -32,7 +32,7 @@ public class RepositoryConfig {
         }
 
         try {
-            volunteerRepository = new VolunteerRepositoryFileImpl("D:\\Facultate\\2.2\\PAO\\hostel\\src\\main\\java\\hostel\\data\\volunteers.csv");
+            volunteerRepository = new VolunteerRepositoryFileImpl("D:\\Facultate\\2.2\\PAO\\lab\\hotel\\src\\main\\java\\hostel\\data\\volunteers.csv");
         } catch (FileNotFoundException e) {
             System.out.println("Could not create VolunteerRepositoryFileImpl: " + e.getMessage());
             System.out.println("The system will use the mock data from VolunteerRepositorySmartImpl");
@@ -40,7 +40,7 @@ public class RepositoryConfig {
         }
 
         try {
-            guestRepository = new GuestRepositoryFileImpl("D:\\Facultate\\2.2\\PAO\\hostel\\src\\main\\java\\hostel\\data\\guests.csv");
+            guestRepository = new GuestRepositoryFileImpl("D:\\Facultate\\2.2\\PAO\\lab\\hotel\\src\\main\\java\\hostel\\data\\guests.csv");
         } catch (FileNotFoundException e) {
             System.out.println("Could not create GuestRepositoryFileImpl: " + e.getMessage());
             System.out.println("The system will use the mock data from GuestRepositorySmartImpl");
@@ -48,7 +48,7 @@ public class RepositoryConfig {
         }
 
         try {
-            activityRepository = new ActivityRepositoryFileImpl("D:\\Facultate\\2.2\\PAO\\hostel\\src\\main\\java\\hostel\\data\\activities.csv");
+            activityRepository = new ActivityRepositoryFileImpl("D:\\Facultate\\2.2\\PAO\\lab\\hotel\\src\\main\\java\\hostel\\data\\activities.csv");
         } catch (FileNotFoundException e) {
             System.out.println("Could not create ActivityRepositoryFileImpl: " + e.getMessage());
             System.out.println("The system will use the mock data from ActivityRepositoryImpl");

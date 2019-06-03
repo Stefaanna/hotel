@@ -5,31 +5,33 @@ import java.sql.Timestamp;
 
 public class AuditService {
 
-    private static AuditService instance;
+    private static PrintWriter printWriter;
+    private static AuditService instance = new AuditService();
 
-    public static AuditService getInstance() {
-        if (instance == null) {
-            instance = new AuditService();
+    public static AuditService getInstance() { return instance; }
+
+    private AuditService() {
+        try {
+            printWriter = new PrintWriter(new File("D:\\Facultate\\2.2\\PAO\\lab\\hotel\\src\\main\\java\\hostel\\data\\actions.csv"));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
         }
-        return instance;
+
+        Runtime.getRuntime().addShutdownHook(new Thread() {
+            @Override
+            public void run() { closeWriter(); }
+        });
     }
 
-    public void printActionsDetails(String actionName)  {
+    public void printActionsDetails(String actionName) {
+        Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+        printWriter.println(actionName + "," + timestamp + "," + Thread.currentThread());
+    }
 
-        try {
-            FileWriter fileWriter = new FileWriter("D://Facultate//2.2//PAO//hostel//src//main//java//hostel//data//actions.csv", true);
-            PrintWriter printWriter = new PrintWriter(fileWriter);
-            Timestamp timestamp = new Timestamp(System.currentTimeMillis());
-
-            printWriter.print(actionName);
-            printWriter.print(",");
-            printWriter.println(timestamp);
-
-            printWriter.flush();
-            printWriter.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-//            throw new HostelException(PRINT_AUDIT, e.getMessage());
-        }
+    private boolean closeWriter () {
+        boolean result = true;
+        printWriter.flush();
+        printWriter.close();
+        return result;
     }
 }

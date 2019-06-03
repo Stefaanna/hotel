@@ -13,7 +13,7 @@ public class EmployeeGenerator {
     public static void writeEmployeeData() {
 
         try {
-            FileWriter fileWriter = new FileWriter("D://Facultate//2.2//PAO//hostel//src//main//java//hostel//data//employees.csv");
+            FileWriter fileWriter = new FileWriter("D:\\Facultate\\2.2\\PAO\\lab\\hotel\\src\\main\\java\\hostel\\data\\employees.csv");
             PrintWriter printWriter = new PrintWriter(fileWriter);
 
             Set<Employee> employees = new HashSet<Employee>();

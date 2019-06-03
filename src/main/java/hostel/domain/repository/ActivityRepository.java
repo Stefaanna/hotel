@@ -10,5 +10,10 @@ public interface ActivityRepository {
 
     public void addActivity(String title, String day, int hour);
 
-    public void printAllActivities();
+    void insertActivity(Activity activity);
+
+    void updateActivity(String title, String weekday);
+
+    void deleteActivity(Activity activity);
+
 }

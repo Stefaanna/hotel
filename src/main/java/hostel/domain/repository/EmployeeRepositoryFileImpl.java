@@ -29,4 +29,22 @@ public class EmployeeRepositoryFileImpl implements EmployeeRepository {
         return employees;
     }
 
+    @Override
+    public void insertEmployee(Employee employee) { employees.add(employee); }
+
+    @Override
+    public void updateEmployee(String cnp, String name) {
+        // update the name of the employee
+        Employee lastEmployee = null;
+        for (Employee e : employees) {
+            if (e.getCnp().equals(cnp)) {
+                lastEmployee = e;
+            }
+        }
+        lastEmployee.setName(name);
+    }
+
+    public void deleteEmployee(Employee employee) {
+        employees.remove(employee);
+    }
 }

@@ -1,9 +1,12 @@
 package main.java.hostel.services;
 
 import main.java.hostel.configuration.RepositoryConfig;
+import main.java.hostel.controller.dto.EmployeeDto;
 import main.java.hostel.domain.entity.Employee;
 import main.java.hostel.domain.repository.EmployeeRepository;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 
 public class EmployeeService {
@@ -54,4 +57,26 @@ public class EmployeeService {
         printEmployees(employeeRepository.getEmployees());
     }
 
+    public void createNewEmployee(String cnp, String name) {
+        Employee employee = new Employee();
+        employee.setCnp(cnp);
+        employee.setName(name);
+        employeeRepository.insertEmployee(employee);
+    }
+
+    public List<EmployeeDto> getAllEmployees() {
+        List<EmployeeDto> resultedList  = new ArrayList<>();
+        for (Employee g : employeeRepository.getEmployees()) {
+            resultedList.add(new EmployeeDto(g));
+        }
+        return resultedList;
+    }
+
+    public void updateEmployee(String cnp, String name) {
+        employeeRepository.updateEmployee(cnp, name);
+    }
+
+    public void deleteEmployee(Employee employee) {
+        employeeRepository.deleteEmployee(employee);
+    }
 }

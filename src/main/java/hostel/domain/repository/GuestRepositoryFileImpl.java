@@ -28,4 +28,25 @@ public class GuestRepositoryFileImpl implements GuestRepository {
     public ArrayList<Guest> getGuests() {
         return guests;
     }
+
+    public void insertGuest(Guest guest) {
+        guests.add(guest);
+    }
+
+    public void updateGuest(String cnp, String name, String originCountry) {
+        // update the name and origin country of a guest
+        Guest lastGuest = null;
+        for (Guest g : guests) {
+            if (g.getCnp().equals(cnp)) {
+                lastGuest = g;
+            }
+        }
+        lastGuest.setName(name);
+        lastGuest.setOriginCountry(originCountry);
+    }
+
+    public void deleteGuest(Guest guest) {
+        guests.remove(guest);
+    }
 }
+

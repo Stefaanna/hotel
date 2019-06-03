@@ -5,12 +5,10 @@ import main.java.hostel.domain.entity.Volunteer;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
 public class VolunteerRepositoryFileImpl implements VolunteerRepository {
-    private Set<Volunteer> volunteers = new HashSet<Volunteer>();
+    private List<Volunteer> volunteers = new ArrayList<Volunteer>();
 
     public VolunteerRepositoryFileImpl(String filename) throws FileNotFoundException {
         File file = new File(filename);
@@ -25,6 +23,25 @@ public class VolunteerRepositoryFileImpl implements VolunteerRepository {
     }
 
     @Override
-    public Set<Volunteer> getVolunteers() {
+    public List<Volunteer> getVolunteers() {
         return volunteers;
-    }}
+    }
+
+    @Override
+    public void insertVolunteer(Volunteer volunteer) {
+        volunteers.add(volunteer);
+    }
+
+    @Override
+    public void updateUser(String cnp, String name, String originCountry) {
+        Volunteer lastVolunteer = volunteers.get(volunteers.size());
+        lastVolunteer.setName(name);
+        lastVolunteer.setCnp(cnp);
+        lastVolunteer.setOriginCountry(originCountry);
+    }
+
+    public void deleteVolunteer(Volunteer volunteer) {
+        volunteers.remove(volunteer);
+    }
+}
+

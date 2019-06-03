@@ -1,5 +1,6 @@
 package main.java.hostel.domain.repository;
 
+import javafx.beans.property.StringProperty;
 import main.java.hostel.domain.entity.Activity;
 import main.java.hostel.services.AuditService;
 
@@ -38,18 +39,8 @@ public class ActivityRepositoryFileImpl implements ActivityRepository {
     }
 
     @Override
-    public void addActivity(String title, String day, int hour) {
-        auditService.printActionsDetails("addActivity");
-        activities.add(new Activity(title, day, hour));
-    }
-
-    @Override
-    public void printAllActivities() {
-        auditService.printActionsDetails("printAllActivities");
-        for (Activity a : activities) {
-            System.out.println(a.getTitle() + ", which takes place on " + a.getWeekDay());
-        }
-        System.out.println();
+    public void addActivity(String title, String weekday, int hour) {
+        activities.add(new Activity(title, weekday, hour));
     }
 
     @Override
@@ -57,4 +48,22 @@ public class ActivityRepositoryFileImpl implements ActivityRepository {
         return activities;
     }
 
+    public void insertActivity(Activity activity) {
+        activities.add(activity);
+    }
+
+    public void updateActivity(String title, String weekday) {
+        // update the weekday of the activity
+        Activity lastActivity = null;
+        for (Activity a : activities) {
+            if (a.getTitle().equals(title)) {
+                lastActivity = a;
+            }
+        }
+        lastActivity.setWeekDay(weekday);
+    }
+
+    public void deleteActivity(Activity activity) {
+        activities.remove(activity);
+    }
 }

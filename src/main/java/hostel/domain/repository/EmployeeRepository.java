@@ -8,4 +8,10 @@ public interface EmployeeRepository {
 
 //    public Employee[] getEmployees();
     public Set<Employee> getEmployees();
+
+    void insertEmployee(Employee employee);
+
+    void updateEmployee(String cnp, String name);
+
+    void deleteEmployee(Employee employee);
 }

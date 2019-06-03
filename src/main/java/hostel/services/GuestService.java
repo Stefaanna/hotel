@@ -1,10 +1,12 @@
 package main.java.hostel.services;
 
 import main.java.hostel.configuration.RepositoryConfig;
+import main.java.hostel.controller.dto.GuestDto;
 import main.java.hostel.domain.entity.Guest;
 import main.java.hostel.domain.repository.GuestRepository;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class GuestService {
 
@@ -61,5 +63,29 @@ public class GuestService {
             }
         }
         if (!found) System.out.println("There is no guest from " + country);
+    }
+
+    public void createNewGuest(String cnp, String name, String originCountry) {
+        Guest guest = new Guest();
+        guest.setCnp(cnp);
+        guest.setName(name);
+        guest.setOriginCountry(originCountry);
+        guestRepository.insertGuest(guest);
+    }
+
+    public List<GuestDto> getAllGuests() {
+        List<GuestDto> resultedList  = new ArrayList<>();
+        for (Guest g : guestRepository.getGuests()) {
+            resultedList.add(new GuestDto(g));
+        }
+        return resultedList;
+    }
+
+    public void updateGuest(String cnp, String name, String originCountry) {
+        guestRepository.updateGuest(cnp, name, originCountry);
+    }
+
+    public void deleteGuest(Guest guest) {
+        guestRepository.deleteGuest(guest);
     }
 }

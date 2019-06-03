@@ -42,8 +42,9 @@ public class HostelService {
         EmployeeService employeeService;
         GuestService guestService;
         VolunteerService volunteerService;
+        ActivityService activityService;
         RoomsRepository roomsRepository;
-        ActivityRepository activityRepository;
+//        ActivityRepository activityRepository;
         ReservationRepository reservationRepository;
 
         while (operation != 0) {
@@ -100,16 +101,17 @@ public class HostelService {
                     break;
                 case 7:
                     //addActivity
-                    activityRepository = RepositoryConfig.getInstance().getActivityRepository();
-                    activityRepository.addActivity("painting", "sunday", 18);
+//                    activityService = RepositoryConfig.getInstance().getActivityRepository();
+                    activityService = new ActivityService();
+                    activityService.addActivity("painting", "sunday", 18);
 //                    activityRepository.addActivity("yoga", "sunday", 11);
 //                    activityRepository.addActivity("running", "wednesday", 17);
                     break;
                 case 8:
                     //printAllActivities
-                    activityRepository = RepositoryConfig.getInstance().getActivityRepository();
                     System.out.println("\nAt our hostel we usually do these activities: ");
-                    activityRepository.printAllActivities();
+                    activityService = new ActivityService();
+                    activityService.printAllActivities();
                     break;
                 case 9:
                     //listAvailableBeds

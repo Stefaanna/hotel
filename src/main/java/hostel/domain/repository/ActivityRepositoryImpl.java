@@ -22,38 +22,31 @@ public class ActivityRepositoryImpl implements ActivityRepository {
     });
 
     @Override
-    public void addActivity(String title, String day, int hour) {
-        activities.add(new Activity(title, day, hour));
+    public void addActivity(String title, String weekday, int hour) {
+        activities.add(new Activity(title, weekday, hour));
     }
-
-    /*
-    //pentru SmartImpl
-    public ActivityRepositoryImpl() {
-        int length = TestData.getInstance().getActivityData().length;
-        this.activities = new Activity[length];
-        for (int i = 0; i < length; i++) {
-            String[] splitedData = TestData.getInstance().getActivityData()[i].split(",");
-            this.activities[i] =
-                    new ActivityBuilder()
-                            .withTitle(splitedData[0])
-                            .withWeekDay(splitedData[1])
-                            .withStartingHour(parseInt(splitedData[2]))
-                            .build();
-
-        }
-    }*/
-
-   @Override
-    public void printAllActivities() {
-        for (Activity a : activities) {
-            System.out.println(a.getTitle() + ", which takes place on " + a.getWeekDay());
-        }
-        System.out.println();
-    }
-
 
     @Override
     public Set<Activity> getActivities() {
         return activities;
+    }
+
+    public void insertActivity(Activity activity) {
+       activities.add(activity);
+    }
+
+    public void updateActivity(String title, String weekday) {
+        // update the weekday of the activity
+        Activity lastActivity = null;
+        for (Activity a : activities) {
+            if (a.getTitle().equals(title)) {
+                lastActivity = a;
+            }
+        }
+        lastActivity.setWeekDay(weekday);
+    }
+
+    public void deleteActivity(Activity activity) {
+        activities.remove(activity);
     }
 }

@@ -4,12 +4,14 @@ import main.java.hostel.domain.entity.Volunteer;
 import main.java.hostel.tool.TestData;
 import main.java.hostel.tool.VolunteerBuilder;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 public class VolunteerRepositorySmartImpl implements VolunteerRepository {
 
-    private Set<Volunteer> volunteers = new HashSet<Volunteer>();
+    private List<Volunteer> volunteers = new ArrayList<>();
 
     public VolunteerRepositorySmartImpl() {
         int length = TestData.getInstance().getVolunteerData().length;
@@ -26,7 +28,24 @@ public class VolunteerRepositorySmartImpl implements VolunteerRepository {
     }
 
     @Override
-    public Set<Volunteer> getVolunteers() {
+    public List<Volunteer> getVolunteers() {
         return volunteers;
+    }
+
+    @Override
+    public void insertVolunteer(Volunteer volunteer) {
+        volunteers.add(volunteer);
+    }
+
+    @Override
+    public void updateUser(String cnp, String name, String originCountry) {
+        Volunteer lastVolunteer = volunteers.get(volunteers.size());
+        lastVolunteer.setName(name);
+        lastVolunteer.setCnp(cnp);
+        lastVolunteer.setOriginCountry(originCountry);
+    }
+
+    public void deleteVolunteer(Volunteer volunteer) {
+        volunteers.remove(volunteer);
     }
 }

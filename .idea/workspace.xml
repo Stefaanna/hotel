@@ -3,13 +3,45 @@
   <component name="ChangeListManager">
     <list default="true" id="eea8fd55-8818-42de-a0ae-e68743f78d8d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hostel/META-INF/hostel.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/configuration/RepositoryConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/configuration/RepositoryConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/ActivityRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/ActivityRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/ActivityRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/ActivityRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/EmployeeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/EmployeeRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/EmployeeRepositorySmartImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/EmployeeRepositorySmartImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/GuestRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/GuestRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/GuestRepositorySmartImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/GuestRepositorySmartImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/ReservationRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/ReservationRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/RoomsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/RoomsRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/VolunteerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/VolunteerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/VolunteerRepositorySmartImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/VolunteerRepositorySmartImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/services/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/services/EmployeeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/services/GuestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/services/GuestService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/services/VolunteerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/services/VolunteerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/configuration/RepositoryConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/configuration/RepositoryConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hostel/data/actions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/data/actions.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/ActivityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/ActivityRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/ActivityRepositoryFileImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/ActivityRepositoryFileImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/RoomsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/RoomsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/ActivityRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/ActivityRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/EmployeeRepositoryFileImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/EmployeeRepositoryFileImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/EmployeeRepositorySmartImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/EmployeeRepositorySmartImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/GuestRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/GuestRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/GuestRepositoryFileImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/GuestRepositoryFileImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/GuestRepositorySmartImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/GuestRepositorySmartImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/ReservationRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/ReservationRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/VolunteerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/VolunteerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/VolunteerRepositoryFileImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/VolunteerRepositoryFileImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/VolunteerRepositorySmartImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/VolunteerRepositorySmartImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/services/AuditService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/services/AuditService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hostel/services/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/services/EmployeeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hostel/services/GuestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/services/GuestService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hostel/services/HostelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/services/HostelService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hostel/services/VolunteerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/services/VolunteerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/tool/ActivityGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/tool/ActivityGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/tool/EmployeeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/tool/EmployeeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/tool/GuestGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/tool/GuestGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/tool/VolunteerGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/tool/VolunteerGenerator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/hotel/target/" />
@@ -20,104 +52,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hostel/services/HostelService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="54" column="41" lean-forward="true" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hostel/services/VolunteerService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hostel/services/EmployeeService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hostel/services/GuestService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/ActivityRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hostel/data/actions.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/RoomsRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="47" column="59" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/ActivityRepositoryFileImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -130,6 +65,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>le bo</find>
+      <find>getInstance</find>
+      <find>volunteer</find>
+      <find>activity</find>
+      <find>guest</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -143,65 +82,64 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/ReservationRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/ReservationRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/tool/GuestBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/entity/Bed.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/entity/Room.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/employeeRepositoryFileImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/entity/Volunteer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/entity/Guest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/entity/Activity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/EmployeeRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/EmployeeRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/VolunteerRepositorySmartImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/VolunteerRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/ActivityRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/GuestRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/GuestRepositorySmartImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/tool/TestData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/tool/ActivityWriter.java" />
-        <option value="$PROJECT_DIR$/hotel/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/hostel/tool/data/CSVUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/hostel/tool/CSVUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/hostel/tool/activities.csv" />
         <option value="$PROJECT_DIR$/activities.csv" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/ActivityRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/EmployeeRepositoryFileImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/GuestRepositoryFileImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/VolunteerRepositoryFileImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/hostel/tool/data/DataWriter.java" />
         <option value="$PROJECT_DIR$/src/main/java/hostel/tool/data/guests.csv" />
         <option value="$PROJECT_DIR$/src/main/java/hostel/tool/data/employees.csv" />
         <option value="$PROJECT_DIR$/src/main/java/hostel/tool/data/activities.csv" />
         <option value="$PROJECT_DIR$/src/main/java/hostel/tool/data/volunteers.csv" />
         <option value="$PROJECT_DIR$/src/main/java/hostel/tool/DataWriter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/tool/ActivityGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/tool/EmployeeGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/tool/GuestGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/tool/VolunteerGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/configuration/RepositoryConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Start.java" />
         <option value="$PROJECT_DIR$/src/main/java/hostel/tool/Audit.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/EmployeeRepositorySmartImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/hostel/domain/HostelException.java" />
         <option value="$PROJECT_DIR$/src/main/java/hostel/domain/ErrorCode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/services/AuditService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/services/VolunteerService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/services/EmployeeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/services/GuestService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/services/HostelService.java" />
         <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/RoomsRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/data/actions.csv" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/entity/Volunteer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/entity/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/tool/GuestGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/tool/VolunteerGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/tool/EmployeeGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/tool/ActivityGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/ReservationRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/controller/dto/VolunteerDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/controller/dto/GuestDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/controller/dto/EmployeeDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/services/EmployeeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/EmployeeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/EmployeeRepositoryFileImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/EmployeeRepositorySmartImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/services/GuestService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/GuestRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/GuestRepositoryFileImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/GuestRepositorySmartImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/services/VolunteerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/VolunteerRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/VolunteerRepositoryFileImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/VolunteerRepositorySmartImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/controller/dto/ActivityDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/ActivityRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/ActivityRepositoryFileImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/domain/repository/ActivityRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/services/HostelService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Start.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/services/ActivityService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/configuration/RepositoryConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/services/AuditService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/services/db/ActivityJDBC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/services/db/GuestJDBC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/services/db/VolunteerJDBC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/services/db/EmployeeJDBC.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -209,115 +147,103 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="hostel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hostel" type="462c0819:PsiDirectoryNode" />
+              <item name="hotel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="hostel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hostel" type="462c0819:PsiDirectoryNode" />
+              <item name="hotel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="hostel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hostel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hostel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hostel" type="462c0819:PsiDirectoryNode" />
+              <item name="hotel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hostel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="hostel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hostel" type="462c0819:PsiDirectoryNode" />
+              <item name="hotel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hostel" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="hostel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hostel" type="462c0819:PsiDirectoryNode" />
+              <item name="hotel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hostel" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="hostel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hostel" type="462c0819:PsiDirectoryNode" />
+              <item name="hotel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hostel" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="hostel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hostel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hostel" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hostel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hostel" type="462c0819:PsiDirectoryNode" />
+              <item name="hotel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hostel" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="hostel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hostel" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hostel" type="462c0819:PsiDirectoryNode" />
               <item name="tool" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hostel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557558812773" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pao-lab" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559559462644" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Facultate\2.2\PAO\hostel\src\main\java\hostel\tool\data" />
-      <recent name="D:\Facultate\2.2\PAO\hostel\src\main\java\hostel\tool" />
-      <recent name="D:\Facultate\2.2\PAO\hostel" />
-      <recent name="D:\Facultate\2.2\PAO\hostel\src" />
-      <recent name="D:\Facultate\2.2\PAO\hostel\main\java" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="main.java.hostel.domain.repository" />
       <recent name="main.java.hostel.domain.entity" />
       <recent name="main.java.hostel.tool" />
       <recent name="main.java.hostel.services" />
       <recent name="main.java.hostel.configuration" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Facultate\2.2\PAO\hostel\src\main\java\hostel\tool\data" />
+      <recent name="D:\Facultate\2.2\PAO\hostel\src\main\java\hostel\tool" />
+      <recent name="D:\Facultate\2.2\PAO\hostel" />
+      <recent name="D:\Facultate\2.2\PAO\hostel\src" />
+      <recent name="D:\Facultate\2.2\PAO\hostel\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -370,9 +296,9 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CSVUtils" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Start" />
-      <item itemvalue="Application.CSVUtils" />
     </list>
     <recent_temporary>
       <list>
@@ -432,23 +358,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="782" height="831" extended-state="0" />
-    <editor active="true" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.40858725" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.49930653" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49932885" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50067115" side_tool="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.3090129" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.30802292" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49932885" visible="true" weight="0.25035766" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49932885" weight="0.6318052" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -499,163 +424,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Restructure and finish etapaII" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/RepositoryConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/entity/Volunteer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/entity/Volunteer.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/entity/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/hostel/main/java/Start.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/EmployeeRepositoryImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/VolunteerRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" lean-forward="true" selection-start-column="43" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/GuestRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/tool/data/activitiess.csv" />
-    <entry file="file://$PROJECT_DIR$/hostel.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/tool/CSVUtils.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/tool/GuestBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/EmployeeRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/activities.csv" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/entity/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/tool/EmployeeBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/entity/Guest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/GuestRepositorySmartImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/GuestRepositoryFileImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#402#409#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/VolunteerRepositorySmartImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/data/guests.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider editor-type-id="csv-text-editor" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/data/volunteers.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider editor-type-id="csv-text-editor" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/VolunteerRepositoryFileImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hostel/tool/TestData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -680,60 +448,200 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/tool/EmployeeGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/HostelException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/ErrorCode.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/data/employees.csv">
+      <provider editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/entity/Volunteer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="15" column="108" selection-start-line="15" selection-start-column="108" selection-end-line="15" selection-end-column="108" />
+        <state relative-caret-position="138">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#1343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/entity/Bed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/entity/Volunteer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/entity/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="72" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/FileOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="269" selection-start-line="269" selection-end-line="269" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/ReservationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/RoomsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="28" column="67" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/tool/GuestGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/entity/Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="14" column="108" selection-start-line="14" selection-start-column="108" selection-end-line="14" selection-end-column="108" />
+        <state relative-caret-position="306">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/entity/Guest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/controller/dto/GuestDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/tool/VolunteerGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/controller/dto/VolunteerDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="15" column="108" selection-start-line="15" selection-start-column="108" selection-end-line="15" selection-end-column="108" />
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="28" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/configuration/RepositoryConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/EmployeeRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="50" column="121" selection-start-line="50" selection-start-column="121" selection-end-line="50" selection-end-column="121" />
+        <state relative-caret-position="255">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/tool/ActivityGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/GuestRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="66" selection-start-line="16" selection-start-column="12" selection-end-line="17" selection-end-column="66" />
+        <state relative-caret-position="187">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/GuestRepositoryFileImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#402#409#0" expanded="true" />
+            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#1598#1599#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/ReservationRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/VolunteerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/EmployeeRepositoryFileImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/VolunteerRepositorySmartImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="596">
+          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1548#1549#0" expanded="true" />
+            <element signature="e#1573#1574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/VolunteerRepositoryFileImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1490#1491#0" expanded="true" />
+            <element signature="e#1515#1516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/controller/dto/EmployeeDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="57" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="25" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/controller/dto/ActivityDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -742,27 +650,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/ActivityRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/data/activities.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/HostelException.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/ErrorCode.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/EmployeeRepositorySmartImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        <state relative-caret-position="459">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -771,43 +660,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Start.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="187">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/data/employees.csv">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/data/activities.csv">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/services/AuditService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/GuestRepositorySmartImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        <state relative-caret-position="748">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/ReservationRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/EmployeeRepositorySmartImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        <state relative-caret-position="782">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#391#401#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/RoomsRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/EmployeeRepositoryFileImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="47" column="59" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
+        <state relative-caret-position="187">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -816,38 +705,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/ActivityRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/ActivityRepositoryFileImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/data/actions.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/services/AuditService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+        <state relative-caret-position="58">
+          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#644#717#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hostel/services/GuestService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        <state relative-caret-position="497">
+          <caret line="88" column="43" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#createNewGuest#0;class#GuestService#0" />
+            <element signature="e#3032#3033#0" expanded="true" />
+            <element signature="e#3082#3083#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/services/VolunteerService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/services/EmployeeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        <state relative-caret-position="157">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#searchEmployeesByASpecificPattern#0;class#EmployeeService#0" />
+            <element signature="method#createPattern#0;class#EmployeeService#0" />
+            <element signature="method#createNewEmployee#0;class#EmployeeService#0" />
+            <element signature="method#getAllEmployees#0;class#EmployeeService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/tool/ActivityGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -856,31 +770,121 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hostel/services/HostelService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="54" column="41" lean-forward="true" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+        <state relative-caret-position="1921">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/services/EmployeeService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/domain/repository/ActivityRepositoryFileImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+        <state relative-caret-position="142">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/data/actions.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/configuration/RepositoryConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/services/ActivityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/services/VolunteerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/tool/GuestGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="120" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/services/db/VolunteerJDBC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/services/db/GuestJDBC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="122" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/tool/EmployeeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="120" selection-start-line="15" selection-start-column="120" selection-end-line="15" selection-end-column="120" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/tool/VolunteerGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="120" selection-start-line="15" selection-start-column="120" selection-end-line="15" selection-end-column="120" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/services/db/EmployeeJDBC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/services/db/ActivityJDBC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="77" column="51" selection-start-line="77" selection-start-column="51" selection-end-line="77" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

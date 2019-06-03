@@ -28,6 +28,7 @@ public class HotelForm {
 
 
     public HotelForm() {
+
         allEmployees.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -287,6 +288,7 @@ public class HotelForm {
             }
         });
 
+
     }
 
     public void initGUI() {
@@ -309,6 +311,7 @@ public class HotelForm {
                 hotelForm.initGUI();
             }
         });
+
     }
 
     private void createUIComponents() {

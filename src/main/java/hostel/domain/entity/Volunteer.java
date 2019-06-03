@@ -28,6 +28,12 @@ public class Volunteer extends Person {
         this.setOriginCountry(originCountry);
     }
 
+    public Volunteer(Volunteer v) {
+        this.setName(v.getName());
+        this.setCnp(v.getCnp());
+        this.setOriginCountry(v.getOriginCountry());
+    }
+
     public Date getHireDate() { return hireDate; }
 
     public void setHireDate(Date hireDate) { this.hireDate = hireDate; }

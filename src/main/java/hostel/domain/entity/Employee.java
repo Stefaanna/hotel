@@ -19,6 +19,15 @@ public class Employee extends Person {
         super();
     }
 
+    public Employee(Employee e) {
+        this.setCnp(e.getCnp());
+        this.setName(e.getName());
+    }
+
+    public Employee(String name) {
+        this.setName(name);
+    }
+
     public Date getHireDate() { return hireDate; }
 
     public void setHireDate(Date hireDate) { this.hireDate = hireDate; }

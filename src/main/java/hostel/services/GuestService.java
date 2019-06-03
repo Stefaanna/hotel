@@ -88,4 +88,46 @@ public class GuestService {
     public void deleteGuest(Guest guest) {
         guestRepository.deleteGuest(guest);
     }
+
+    public List<Guest> getGuests() {
+        List<Guest> resultedList  = new ArrayList<>();
+        for (Guest g : guestRepository.getGuests()) {
+            resultedList.add(new Guest(g));
+        }
+        return resultedList;
+    }
+
+    public List<Guest> searchGuestsByCountry() {
+        auditService.printActionsDetails("searchGuestByOriginCountry");
+        ArrayList<Guest> guests = guestRepository.getGuests();
+        List<Guest> result = new ArrayList<>();
+        String country = "Portugal";
+        for (Guest g : guests) {
+            if (g == null) {
+                break;
+            } else {
+                if (g.getOriginCountry().equals(country)) {
+                    result.add(g);
+                }
+            }
+        }
+        return result;
+    }
+
+    public List<Guest> searchGuestsByCnp() {
+        auditService.printActionsDetails("searchGuestByCnp");
+        ArrayList<Guest> guests = guestRepository.getGuests();
+        String cnp="43782223";
+        List<Guest> result = new ArrayList<>();
+        for (Guest g : guests) {
+            if (g == null) {
+                break;
+            } else {
+                if (g.getCnp().equals(cnp)) {
+                    result.add(g);
+                }
+            }
+        }
+        return result;
+    }
 }

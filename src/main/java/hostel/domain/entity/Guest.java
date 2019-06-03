@@ -26,6 +26,16 @@ public class Guest extends Person {
         this.setOriginCountry(originCountry);
     }
 
+    public Guest(Guest g) {
+        this.setName(g.getName());
+        this.setCnp(g.getCnp());
+        this.setOriginCountry(g.getOriginCountry());
+    }
+
+    public Guest(String name) {
+        this.setName(name);
+    }
+
     public void setComingDate(Date date) {
         this.comingDate = comingDate;
     }

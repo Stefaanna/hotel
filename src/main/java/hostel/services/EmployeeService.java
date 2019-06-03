@@ -79,4 +79,12 @@ public class EmployeeService {
     public void deleteEmployee(Employee employee) {
         employeeRepository.deleteEmployee(employee);
     }
+
+    public List<Employee> getEmployees() {
+        List<Employee> resultedList  = new ArrayList<>();
+        for (Employee e : employeeRepository.getEmployees()) {
+            resultedList.add(new Employee(e));
+        }
+        return resultedList;
+    }
 }

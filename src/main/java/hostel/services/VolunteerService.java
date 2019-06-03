@@ -50,4 +50,12 @@ public class VolunteerService {
     public void deleteVolunteer(Volunteer volunteer) {
         volunteerRepository.deleteVolunteer(volunteer);
     }
+
+    public List<Volunteer> getVolunteers() {
+        List<Volunteer> resultedList  = new ArrayList<>();
+        for (Volunteer v : volunteerRepository.getVolunteers()) {
+            resultedList.add(new Volunteer(v));
+        }
+        return resultedList;
+    }
 }

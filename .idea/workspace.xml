@@ -3,45 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eea8fd55-8818-42de-a0ae-e68743f78d8d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hostel/META-INF/hostel.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/configuration/RepositoryConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/configuration/RepositoryConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/ActivityRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/ActivityRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/ActivityRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/ActivityRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/EmployeeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/EmployeeRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/EmployeeRepositorySmartImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/EmployeeRepositorySmartImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/GuestRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/GuestRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/GuestRepositorySmartImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/GuestRepositorySmartImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/ReservationRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/ReservationRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/RoomsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/RoomsRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/VolunteerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/VolunteerRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/VolunteerRepositorySmartImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/domain/repository/VolunteerRepositorySmartImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/services/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/services/EmployeeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/services/GuestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/services/GuestService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/services/VolunteerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hostel/main/java/hostel/services/VolunteerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/configuration/RepositoryConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/configuration/RepositoryConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/data/actions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/data/actions.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/ActivityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/ActivityRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/ActivityRepositoryFileImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/ActivityRepositoryFileImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/ActivityRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/ActivityRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/EmployeeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/EmployeeRepositoryFileImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/EmployeeRepositoryFileImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/EmployeeRepositorySmartImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/EmployeeRepositorySmartImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/GuestRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/GuestRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/GuestRepositoryFileImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/GuestRepositoryFileImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/GuestRepositorySmartImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/GuestRepositorySmartImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/ReservationRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/ReservationRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/VolunteerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/VolunteerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/VolunteerRepositoryFileImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/VolunteerRepositoryFileImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/VolunteerRepositorySmartImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/domain/repository/VolunteerRepositorySmartImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/services/AuditService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/services/AuditService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/services/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/services/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/services/GuestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/services/GuestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/services/HostelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/services/HostelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/services/VolunteerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/services/VolunteerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/tool/ActivityGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/tool/ActivityGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/tool/EmployeeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/tool/EmployeeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/tool/GuestGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/tool/GuestGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hostel/tool/VolunteerGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hostel/tool/VolunteerGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hostel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hostel.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/hotel/target/" />
@@ -52,7 +14,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hostel/services/db/ActivityJDBC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,6 +44,7 @@
       <find>volunteer</find>
       <find>activity</find>
       <find>guest</find>
+      <find>sys</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -129,14 +105,14 @@
         <option value="$PROJECT_DIR$/src/main/java/hostel/services/ActivityService.java" />
         <option value="$PROJECT_DIR$/src/main/java/hostel/configuration/RepositoryConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/hostel/services/AuditService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hostel/services/db/VolunteerJDBC.java" />
         <option value="$PROJECT_DIR$/src/main/java/hostel/services/db/ActivityJDBC.java" />
         <option value="$PROJECT_DIR$/src/main/java/hostel/services/db/GuestJDBC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hostel/services/db/VolunteerJDBC.java" />
         <option value="$PROJECT_DIR$/src/main/java/hostel/services/db/EmployeeJDBC.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="952" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
@@ -154,6 +130,23 @@
             <path>
               <item name="hotel" type="b2602c69:ProjectViewProjectNode" />
               <item name="hotel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="libraries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hotel" type="b2602c69:ProjectViewProjectNode" />
@@ -223,27 +216,30 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559559462644" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559573840157" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/mysql-connector-java-8.0.16/mysql-connector-java-8.0.16.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Facultate\2.2\PAO\lab\hotel\.idea\libs" />
+      <recent name="D:\Facultate\2.2\PAO\hostel\src\main\java\hostel\tool\data" />
+      <recent name="D:\Facultate\2.2\PAO\hostel\src\main\java\hostel\tool" />
+      <recent name="D:\Facultate\2.2\PAO\hostel" />
+      <recent name="D:\Facultate\2.2\PAO\hostel\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Facultate\2.2\PAO\lab\hotel\.idea\libs" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="main.java.hostel.domain.repository" />
       <recent name="main.java.hostel.domain.entity" />
       <recent name="main.java.hostel.tool" />
       <recent name="main.java.hostel.services" />
       <recent name="main.java.hostel.configuration" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Facultate\2.2\PAO\hostel\src\main\java\hostel\tool\data" />
-      <recent name="D:\Facultate\2.2\PAO\hostel\src\main\java\hostel\tool" />
-      <recent name="D:\Facultate\2.2\PAO\hostel" />
-      <recent name="D:\Facultate\2.2\PAO\hostel\src" />
-      <recent name="D:\Facultate\2.2\PAO\hostel\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -354,18 +350,26 @@
       <option name="project" value="LOCAL" />
       <updated>1557084841208</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add JDBC and finished AuditService">
+      <created>1559560423155</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559560423156</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.49930653" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.49791956" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49932885" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50067115" side_tool="true" weight="0.3286119" />
@@ -373,7 +377,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49932885" weight="0.6318052" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49932885" visible="true" weight="0.3201133" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -421,16 +425,10 @@
     <MESSAGE value="Update: restructure" />
     <MESSAGE value="Update etapaII task2" />
     <MESSAGE value="Restructure and finish etapaII" />
-    <option name="LAST_COMMIT_MESSAGE" value="Restructure and finish etapaII" />
+    <MESSAGE value="Add JDBC and finished AuditService" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add JDBC and finished AuditService" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/tool/TestData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hostel/tool/DataWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -828,26 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/services/db/VolunteerJDBC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/services/db/GuestJDBC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="122" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hostel/tool/EmployeeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -868,10 +846,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/services/db/VolunteerJDBC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="95" column="19" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_16.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hostel/services/db/GuestJDBC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="86" column="35" lean-forward="true" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hostel/services/db/EmployeeJDBC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        <state relative-caret-position="133">
+          <caret line="89" column="19" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -880,8 +881,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hostel/services/db/ActivityJDBC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="77" column="51" selection-start-line="77" selection-start-column="51" selection-end-line="77" selection-end-column="51" />
+        <state relative-caret-position="48">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -953,6 +954,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>mysql-connector-java-8.0.16</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

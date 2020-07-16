@@ -1,6 +1,6 @@
-# hotel
+<b>Hotel</b> - An application simulating the actions taken for the management of a hotel
 
-actions:
+Actions:
 1. printAllEmployees
 2. printAllVolunteers
 3. searchEmployeesByASpecificPattern

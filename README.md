@@ -1,4 +1,5 @@
-<b>Hotel</b> - An application simulating the actions taken for the management of a hotel
+<b>Hotel - An application simulating the actions taken for the management of a hotel</b>
+<br/>
 
 Actions:
 1. printAllEmployees
